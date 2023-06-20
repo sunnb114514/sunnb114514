@@ -45,6 +45,37 @@
   </html>
 </html>
 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <SCRIPT id="allow-copy_script">(function agent() { let unlock = false document.addEventListener('allow_copy', (event) => { unlock = event.detail.unlock }) const copyEvents = [ 'copy', 'cut', 'contextmenu', 'selectstart', 'mousedown', 'mouseup', 'mousemove', 'keydown', 'keypress', 'keyup', ] const rejectOtherHandlers = (e) => { if (unlock) { e.stopPropagation() if (e.stopImmediatePropagation) e.stopImmediatePropagation() } } copyEvents.forEach((evt) => { document.documentElement.addEventListener(evt, rejectOtherHandlers, { capture: true, }) }) })()</SCRIPT>
+  <url>
+  <loc>http://example.com/2023/06/17/%E5%A5%87%E6%80%9D%E4%B8%8E%E5%A6%99%E6%83%B3%E7%AC%AC%E4%B8%80%E7%AB%A0/</loc>
+  <lastmod>2023-06-20</lastmod>
+  </url>
+  <url>
+  <loc>http://example.com/2023/06/20/%E6%96%87%E7%AB%A0%E6%8A%95%E7%A8%BF/</loc>
+  <lastmod>2023-06-20</lastmod>
+  </url>
+  <url>
+  <loc>http://example.com/2023/06/06/%E5%B0%8F%E7%BB%83%E7%AC%94/</loc>
+  <lastmod>2023-06-20</lastmod>
+  </url>
+  <url>
+  <loc>http://example.com/2023/06/05/%E5%A5%87%E6%80%9D%E4%B8%8E%E5%A6%99%E6%83%B3%E5%BA%8F%E7%AB%A0/</loc>
+  <lastmod>2023-06-06</lastmod>
+  </url>
+  <url>
+  <loc>http://example.com/2023/05/26/%E7%BD%91%E7%AB%99%E7%9A%84%E5%BB%BA%E7%AB%8B/</loc>
+  <lastmod>2023-06-05</lastmod>
+  </url>
+  <url>
+  <loc>http://example.com/2023/06/05/%E5%A5%87%E6%80%9D%E4%B8%8E%E5%A6%99%E6%83%B3%E5%8F%91%E5%B8%83%E5%85%AC%E5%91%8A/</loc>
+  <lastmod>2023-06-05</lastmod>
+  </url>
+  <url>
+  <loc>http://example.com/2023/05/01/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</loc>
+  <lastmod>2023-05-01</lastmod>
+  </url>
+  </urlset>
 
 <body>
   <div id="app">
@@ -333,6 +364,10 @@
     
     <li class="nav-item">
       <a class="nav-item-link" href="/archives">归档</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/categories">分类</a>
     </li>
     
     <li class="nav-item">
